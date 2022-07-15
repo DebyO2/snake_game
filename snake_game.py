@@ -29,7 +29,7 @@ class Food(Entity):
     
 
     def __init__(self,position):
-        super().__init__(model="quad",scale=0.6,color=color.red,position=position,collider="box")
+        super().__init__(model="quad",scale=0.6,z=0,color=color.red,position=position,collider="box")
 
     def update(self):
         
